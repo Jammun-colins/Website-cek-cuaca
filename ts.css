@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: none;
+    overflow-x: hidden;
+    animation: clearBlur 1s ease-out forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Blue\ Night\ Sky\ Cute\ Whale\ Desktop\ Wallpaper\ \(1\).png);
+}
+
+h2, h3, h4 {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 14px 32px;
+    background-color: #0099e6;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes clearBlur {
+    from {
+        filter: blur(8px);
+    }
+    to {
+        filter: blur(0);
+    }
+}
+
+.box {
+    background: rgba(255,255,255,0.85);
+    padding: 32px 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    max-width: 90vw;
+    margin: 24px 0;
+}
+
+.dev {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    background-color: #f5a623;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dev:hover {
+    background-color: #d48806;
+}
